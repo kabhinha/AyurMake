@@ -4,7 +4,7 @@ import numpy as np
 from langchain.llms import OpenAI
 import os
 
-apiKey = "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"
+apiKey = ""
 os.environ["OPENAI_API_KEY"] = apiKey
 llm = OpenAI(temperature=0.3)
 
